@@ -1,10 +1,11 @@
-crewai
-crewai-tools
-yfinance
-serpapi
-litellm
-streamlit
+streamlit==1.40.1
+pydantic==2.10.4
+crewai==0.72.0
+crewai-tools==0.15.3
+yfinance==0.2.41
+serpapi==3.0.2
+litellm==1.56.13
+chromadb==0.5.11
 
 # Optional legacy fallback for older SerpAPI code paths:
-# google-search-results
-
+# google-search-results==3.0.2
