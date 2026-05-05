@@ -24,7 +24,7 @@ python3 -m streamlit run stock_ai_app.py
 ## Deploy from GitHub (recommended: Streamlit Community Cloud)
 
 1. Push this project to your GitHub repo.
-2. Keep `runtime.txt` in the repo (`python-3.11`) so Streamlit does not use Python 3.14.
+2. Keep `runtime.txt` (`python-3.11`) and `.python-version` (`3.11`) in the repo so Streamlit/uv does not use Python 3.14.
 3. In Streamlit Community Cloud, create a new app from your repo.
 4. Set `Main file path` to `stock_ai_app.py`.
 5. In **App settings -> Secrets**, add:
